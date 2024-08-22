@@ -1,20 +1,11 @@
 {
   "name": "thou",
   "version": "1.0.0",
-  "description": "thou shall obey union commands",
+  "description": "**Thou** integrates the packages you need so you can write once, deploy everywhere. This tool supports our music/content model to sell products for our creators.",
   "main": "index.js",
-  "keywords": [],
-  "author": "Osana AD",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^20.12.3",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.4.3"
+  "scripts": {
+    "test": "exit 0"
   },
-  "dependencies": {
-    "crypto": "^1.0.1",
-    "dotenv": "^16.4.5",
-    "solc": "^0.8.26",
-    "viem": "^2.16.5"
-  }
+  "author": "osana ad",
+  "license": "ISC"
 }
