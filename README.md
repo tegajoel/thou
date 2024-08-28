@@ -1,6 +1,6 @@
 # FanCradle README
 
-**Thou** integrates the packages you need so you can write once, deploy everywhere. This tool supports our music/content model to sell products for our creators.
+**Thou** integrates the packages you need so you can write once, deploy everywhere. This tool supports our music/content model to upsell products for our creators.
 
 ### Try Here
 - [FanCradle](https://fancradle.com/tinatb)
@@ -11,11 +11,11 @@ For a plain English explanation of the code, visit:
 - [FanC Token: Investing in Art (Part 1)](https://medium.com/@austinagbo/fanc-token-investing-in-art-pt-1-83ad7fe97f28)
 
 ### Hosted Chatbot
-All functions are available through a hosted chatbot called **Thou**, which you can deploy as needed.
+All functions are available through hosted bots, that you can deploy as needed.
 
 ---
 
-**FanCradle** is a UK-based record label specializing in Afrobeats, focusing on the genre's cultural evolution and impact within the UK. It highlights Afrobeats' vibrant and eclectic nature and its influence on the cultural fabric of the UK, particularly in music and fashion.
+**FanCradle** is a UK-based record label specialising in Afrobeats, focusing on the genre's cultural evolution and impact within the UK. It highlights Afrobeats' vibrant and eclectic nature and its influence on the cultural fabric of the UK, particularly in music and fashion.
 
 ## Key Features of FanCradle
 
