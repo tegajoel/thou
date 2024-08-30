@@ -23,5 +23,9 @@ function thou() {
     return "hello net";
 }
 
+const IPFS = require('ipfs-http-client');
+
+//
+
 module.exports = thou;
 

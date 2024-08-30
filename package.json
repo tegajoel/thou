@@ -7,5 +7,10 @@
     "test": "exit 0"
   },
   "author": "osana ad",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@helia/unixfs": "^3.0.7",
+    "@jest/globals": "^29.7.0",
+    "helia": "^4.2.5"
+  }
 }
