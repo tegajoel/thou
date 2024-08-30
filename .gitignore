@@ -1,4 +1,5 @@
 # .gitignore
 .env
+.github*
 package-lock.json
 node_modules
