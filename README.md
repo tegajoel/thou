@@ -5,7 +5,7 @@
 ### Try Here
 - Explore [TINATB](https://fancradle.com/tinatb) to experience the platform
 - Use this [repo](https://github.com/austineinstein/blog) if you blog
-- Online shop at shop.fancradle.com for merchandise and products.
+- Makes [money](shop.fancradle.com) for you.
 - [FanCradle](https://fancradle.com/tinatb)
 - ABI: `artifacts/tinatb`
 
