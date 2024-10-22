@@ -3,6 +3,9 @@
 **Thou** integrates the packages you need so you can write once, deploy everywhere. This tool supports our music/content model to upsell products for our creators.
 
 ### Try Here
+- Explore [TINATB](https://fancradle.com/tinatb) to experience the platform
+- Use this [repo](https://github.com/austineinstein/blog) if you blog
+- Online shop at shop.fancradle.com for merchandise and products.
 - [FanCradle](https://fancradle.com/tinatb)
 - ABI: `artifacts/tinatb`
 
