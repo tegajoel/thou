@@ -4,8 +4,7 @@
 
 ### Try Here
 - Explore [TINATB](https://fancradle.com/tinatb) to experience the platform
-- Use this [repo](https://github.com/austineinstein/blog) if you blog
-- Makes [money](shop.fancradle.com) for you.
+- Use this [repo](https://github.com/austineinstein/blog) if you blog & make money [here](shop.fancradle.com) 
 - [FanCradle](https://fancradle.com/tinatb)
 - ABI: `artifacts/tinatb`
 
