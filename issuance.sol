@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract FancToken is ERC20, Ownable {
+abstract contract FancToken is ERC20, Ownable {
     uint256 public artistPortfolioValue; // Store the value of the artist's portfolio in Wei
     uint256 public constant PERCENTAGE_OF_PORTFOLIO = 25;
 
