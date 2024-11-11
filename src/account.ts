@@ -14,7 +14,7 @@ console.log(account.address);
 // Immediately invoked
 (async () => {
     const client = createPublicClient({
-        chain: arbitrumSepolia,
+        chain: arbitrumSepolia, //require switches etc
         transport: http(process.env.API_URL)
     })   
 
