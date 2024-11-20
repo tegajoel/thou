@@ -1,4 +1,4 @@
-# FanCradle README
+# FanCradle Blogs
 
 **Thou** integrates the packages you need so you can write once, deploy everywhere. This tool supports our music/content model to upsell products for our creators.
 
