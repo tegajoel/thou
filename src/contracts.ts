@@ -12,7 +12,7 @@ const { abi, bytecode } = FancToken;
 //const bin = FancToken.data.bytecode;
 //const bin = FancToken.bytecode || FancToken.evm?.bytecode?.object;
 const privateKey = process.env.PRIVATE_KEY;
-const account = privateKeyToAccount(`0x55cbd2c96bca70fb7a69df510c59be909e20712ec79f15b541949fcf7c52e410`);
+const account = privateKeyToAccount(privateKey);
 
 const constructorArgs : { abi: any; bytecode: string } = require('../artifacts/constructor.json');
 
