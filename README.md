@@ -4,18 +4,13 @@
 
 ### Try Here
 - Explore [TINATB](https://fancradle.com/tinatb) to try the platform
-- Use this [repo](https://github.com/austineinstein/blog) if you blog, I would still blog on medium for a # of reasons. 
+- Use this [repo](https://github.com/austineinstein/blog) if you blog. I would also use medium for a # of reasons. 
 - [FanCradle](https://fancradle.com/tinatb)
 - ABI: `artifacts/tinatb`
 
 ### Code Explanation
 For a plain English explanation of the code, visit:
 - [FanC Token: Investing in Art (Part 1)](https://medium.com/@austinagbo/fanc-token-investing-in-art-pt-1-83ad7fe97f28)
-
-### Hosted Chatbot
-All functions are available through hosted bots, that you can deploy as needed.
-
----
 
 **FanCradle** is a UK-based record label specialising in Afrobeats, focusing on the genre's cultural evolution and impact within the UK. It highlights Afrobeats' vibrant and eclectic nature and its influence on the cultural fabric of the UK, particularly in music and fashion.
 
@@ -53,4 +48,3 @@ To establish comprehensive topical authority, below is a detailed topical map co
 | **Community Outreach**         | Initiatives to support local communities and promote cultural awareness.        | /community-outreach          |
 | **Collaborations**             | Collaborations between FanCradle artists and other musicians or brands.         | /collaborations              |
 
-This topical map ensures a comprehensive online presence for FanCradle, promoting the vibrant culture of Afrobeats in the UK and establishing authority in the space.
