@@ -66,38 +66,6 @@ async function loadMusicFromIPFS(ipfsHash: string) {
     }
 }
 
-/**
- * Look Mom! I just updated my Twitter without using Twitter
- * *slap meme - It's X now.
- * Everything I'm doing revolves around a concept I had
- * exactly when Notre Dame caught fire. I called
- * the concept - credibility algorithms for lack of a better term.
- *
- * Concept refers to a scenario when one applies for a job
- * at KFC and without a full search of your application, a service(third-party API)
- * lets you know you have no experience to work in the domestic industry. 
- * A Music Artist will find their first viral hit and audience via a  
- * similar rule engine or
- * that the girl I want to see is all I see on X as "who to follow"
- * even though we are not in the same geography.
- * This is not a technology concept to build on for opportunists - it's more
- * a realisation of our current circumstances.
- * 
- * The algorithm chooses who you work with, who you sleep with and lastly 
- * how you make money. Just be honest
-
-
-{For a lack of better term; it wasn't just
-    * about how writing on the internet was really 
-writing for Google Machines - as a thesis }
-    * initializeAudioPlayer,
-       loadMusicFromIPFS,
-       getPrice
-       // It's those begging for credit that lose attention
- */
-
-
-
     async function getLatestMusicHash() {
         //fetching Osana AD's fire creations
         return "bafybeidlpe3agjgpan22aqv4iu54y7txhoairv5m3scg4iphyhkdcbfpx4"
