@@ -1,5 +1,7 @@
 import { Hex } from "viem";
 
+export default function ThePlay(){
+    
 const { createWalletClient, http, publicActions } = require('viem');
 const { privateKeyToAccount } = require('viem/accounts');
 const { arbitrumSepolia } = require('viem/chains');
@@ -33,3 +35,4 @@ const constructorArgs : { abi: any; bytecode: string } = require('../artifacts/c
     console.log("Deployment transaction hash:", hash);
 
 })();
+}
