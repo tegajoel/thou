@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
+import Web3 from 'web3';
 import Button from '../components/ui/button';
 import ParentComponent from './bholder';
 
 const Burger: React.FC = () => {
   const [account, setAccount] = useState<string | null>(null);
   const [balance, setBalance] = useState<number>(0);
-
 
   return (
     <nav className="bg-gray-800">
@@ -28,11 +28,13 @@ const Burger: React.FC = () => {
           </div>
         </div>
         <div className="md:flex items-center justify-between space-x-4">
-
-          <Button onClick={() => console.log('Button clicked')} text="Click me" />
-          {/* Render ParentComponent as a component, no need for props if not needed */}
-          <ParentComponent />
-        
+          <Button />
+          <button
+            onClick={() => ParentComponent()} // Updated to invoke the function properly
+            className="bg-gray-700 py-2 px-4 text-sm text-white font-semibold rounded-lg hover:bg-gray-600 focus:outline-none focus:shadow-outline-gray"
+          >
+            Log out maybe
+          </button>
         </div>
       </div>
     </nav>
