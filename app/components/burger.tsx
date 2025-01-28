@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Web3 from 'web3';
 import Button from '../components/ui/button';
 import ParentComponent from './bholder';
 
@@ -30,7 +29,7 @@ const Burger: React.FC = () => {
         <div className="md:flex items-center justify-between space-x-4">
           <Button />
           <button
-            onClick={() => ParentComponent()} // Updated to invoke the function properly
+            onClick={() => ParentComponent({}, null)} // Updated to invoke the function properly
             className="bg-gray-700 py-2 px-4 text-sm text-white font-semibold rounded-lg hover:bg-gray-600 focus:outline-none focus:shadow-outline-gray"
           >
             Log out maybe
