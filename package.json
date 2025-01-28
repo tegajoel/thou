@@ -2,9 +2,12 @@
   "name": "thou",
   "version": "1.0.0",
   "description": "**Thou** integrates the packages you need so you can write once, deploy everywhere. This tool supports our music/content model to sell products for our creators.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "author": "osana ad",
   "license": "ISC",
@@ -14,6 +17,18 @@
     "dotenv": "^16.4.5",
     "helia": "^4.2.5",
     "ts-node": "^10.9.2",
-    "viem": "^2.21.38"
-  }
+    "viem": "^2.21.38",
+    "web3": "^4.16.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@jest/globals": "^29.7.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
 }
