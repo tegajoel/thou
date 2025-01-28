@@ -2,7 +2,7 @@
   "name": "thou",
   "version": "1.0.0",
   "description": "**Thou** integrates the packages you need so you can write once, deploy everywhere. This tool supports our music/content model to sell products for our creators.",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "exit 0"
   },
@@ -11,9 +11,14 @@
   "dependencies": {
     "@helia/unixfs": "^3.0.7",
     "@jest/globals": "^29.7.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
     "dotenv": "^16.4.5",
     "helia": "^4.2.5",
+    "multiformats": "^13.3.1",
     "ts-node": "^10.9.2",
-    "viem": "^2.21.38"
+    "typescript": "^5.7.3",
+    "viem": "^2.21.38",
+    "web3": "^4.16.0"
   }
 }

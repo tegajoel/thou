@@ -1,21 +1,21 @@
 import ThePlay from "./src/contracts"
 import SearchResults from "./app/page"
-import { CID } from 'multiformats/cid'
+// import { CID } from 'multiformats/cid'
 
-import type { Helia } from '@helia/interface'
-import type { UnixFS } from '@helia/unixfs'
+// import type { Helia } from '@helia/interface'
+// import type { UnixFS } from '@helia/unixfs'
 
-const { createHelia } = require('helia');
-const { unixfs } = require('@helia/unixfs');
+// const { createHelia } = require('helia');
+// const { unixfs } = require('@helia/unixfs');
 
-let helia: Helia;
-let fs: UnixFS;
+// let helia: Helia;
+// let fs: UnixFS;
 let audioPlayer: HTMLAudioElement;
 
 async function initializeHelia() {
     try {
-        helia = await createHelia();
-        fs = unixfs(helia);
+        // helia = await createHelia();
+        // fs = unixfs(helia);
         console.log('Helia initialized successfully');
     } catch (error) {
         console.error('Failed to initialize Helia:', error);
@@ -51,15 +51,15 @@ async function initializeAudioPlayer(ipfsHash: string) {
 
 async function loadMusicFromIPFS(ipfsHash: string) {
     try {
-        const cid = CID.parse(ipfsHash);
-        const chunks = [];
-        for await (const chunk of fs.cat(cid)) {
-            chunks.push(chunk);
-        }
-        const file = new Blob(chunks);
-        const url = URL.createObjectURL(file);
-        audioPlayer.src = url;
-        audioPlayer.load();
+        // const cid = CID.parse(ipfsHash);
+        // const chunks = [];
+        // for await (const chunk of fs.cat(cid)) {
+        //     chunks.push(chunk);
+        // }
+        // const file = new Blob(chunks);
+        // const url = URL.createObjectURL(file);
+        // audioPlayer.src = url;
+        // audioPlayer.load();
     } catch (error) {
         console.error("Error loading music from IPFS:", error);
         throw error;
